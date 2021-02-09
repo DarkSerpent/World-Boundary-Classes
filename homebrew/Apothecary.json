@@ -338,7 +338,8 @@
 			"classSource": "SRPApothecary",
 			"level": 1,
 			"entries": [
-				"At 1st level, you learn how to create a variety of chemical concoctions. You develop the formulae and can make the following concoctions: painkillers, poisons, bombs, and incense. If a feature requires a save, it uses the Apothecary save DC, calculated as follows: Apothecary save DC = 8 + your proficiency bonus + your Intelligence modifier.",
+				"At 1st level, you learn how to create a variety of chemical concoctions. You develop the formulae and can make the following concoctions: painkillers, poisons, bombs, and incense. If a feature requires a save, it uses the Apothecary save DC, calculated as follows:",
+				"<center>{@bold Apothecary save DC} = 8 + your proficiency bonus + your Intelligence modifier</center>",
 				"Each concoction begins with a Concoction dice equal to {@dice 1d4}. The amount of Concoction die increases as you gain levels in this class, as shown in the Concoction Die column of the Apothecary table. Additionally, to use any concoction, you need a free hand, and access to your respective tools for your reagents. Finally, if a class feature requires a spellcasting ability modifier, your spellcasting ability modifier for those spells is Intelligence.",
 				{
 					"type": "entries",

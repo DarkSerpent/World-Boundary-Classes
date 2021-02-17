@@ -25,7 +25,7 @@
 			"source": "WB: RD",
 			"hd": {
 				"number": 1,
-				"faces": 8
+				"faces": 10
 			},
 			"proficiency": [
 				"str",
@@ -429,7 +429,7 @@
 								"type": "entries",
 								"name": "Dance to the Beat",
 								"entries": [
-									"As an attack action, you can spend 2 flow points to tap into the flow of battle, slamming your fist into the ground and disrupting debris in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
+									"As an attack action, you can spend 1 flow point to tap into the flow of battle, slamming your fist into the ground and disrupting debris in a burst of violent heat. Any hostile creature within 10 feet must make a Charisma saving throw. On a failed save, those creatures take fire damage equal to your Beat 'Em Up die and fall {@condition prone}."
 								]
 							},
 							{
@@ -460,9 +460,10 @@
 				],
 				[
 					{
-						"name": "Quick Jabs",
+						"name": "Haymaker",
 						"entries": [
-							"At 3rd level, your ability to feel the flow of combat grants you extraordinary reflexes. Immediately after you take the Attack action on your turn, you can spend 1 flow point to make two unarmed strikes as a bonus action. If both unarmed strikes hit, you can move 10 feet in any direction for free without provoking opportunity attacks."
+							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
+							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage."
 						]
 					},
 					{
@@ -495,11 +496,9 @@
 				],
 				[
 					{
-						"name": "Haymaker",
+						"name": "Extra Attack",
 						"entries": [
-							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
-							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage.",
-							"You can use this feature a number of times equal to your Strength or Dexterity modifier (minimum of 1), and regain all expended charges on a long rest."
+							"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
 						]
 					}
 				],
@@ -1057,85 +1056,6 @@
 										"name": "A Dire Situation",
 										"entries": [
 											"Starting at 17th level, your hound takes on the stats of a {@creature dire wolf|MM} (found in appendix A of the Monster Manual), instead of a {@creature wolf|MM}. Your hound continues to receive the benefits of your My Best Friend feature."
-										]
-									}
-								]
-							}
-						]
-					]
-				},
-				{
-					"name": "Mixed Martial Mayhem",
-					"shortName": "Mixed Martial Mayhem",
-					"source": "WB: RD",
-					"subclassFeatures": [
-						[
-							{
-								"name": "Mixed Martial Mayhem",
-								"entries": [
-									"Brawlers who fight using mixed martial arts know you don't have to knock an opponent senseless to get them to submit. Of course, members of Mixed Martial Mayhem do beat their opponents senseless—they just know they don’t have to.",
-									{
-										"type": "entries",
-										"name": "Point System",
-										"entries": [
-											"Starting when you choose this fight club at 3rd level, you gain proficiency in {@skill Athletics} or {@skill Acrobatics} (your choice). In addition, when you go to make a grapple check against a creature, you can substitute an {@skill Athletics} check with an {@skill Acrobatics} check. Your primary modifier for this subclass is Strength."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Fighter's Repertoire",
-										"entries": [
-											"Also at 3rd level, you pick a fighting style which compromises one of your various martial arts. You pick another martial art at 6th level, and a final one at 11th level.",
-											"{@bold Karate.} Defense is the best offense. You gain a +1 bonus to your AC.<br />{@bold Jujitsu.} Offense is the best defense. You gain a +2 bonus to damage rolls you make with Beat 'Em Up weapons.<br />{@bold Aikido.} Harmony is the best path for success. Your maximum flow points increase by 2.<br />{@bold Judo.} You can grapple an enemy like no tomorrow. When you attempt to grapple a creature, you can give yourself advantage as a reaction.<br />{@bold Hapkido.} You grow in martial versatility. Spiked chains, chakrams, claws, nunchaku, and three-section staves now count as Beat 'Em Up weapons for you.<br />{@bold Capoeria.} You become more flexible and adept when approaching danger. Your primary modifier becomes Dexterity, and you can use Dexterity instead of Strength for the attack and damage rolls of your Beat 'Em Up weapons.<br />{@bold Tai-chi.} Your control over your breathing has stimulated your senses and your vitality. You increase your maximum hit points by 1 for every level in Brawler."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Hand-to-Hand Improvisation",
-										"entries": [
-											"Starting at 6th level, when you have a creature {@condition grappled}, you gain half cover on attacks made against you by a creature you aren't grappling. When an attack made by a creature you aren't grappling misses, you can use your reaction to spend 1 flow point and have that creature make the same attack with a new roll against the creature you are grappling."
-										]
-									},
-									{
-										"type": "entries",
-										"name": "Groundwork",
-										"entries": [
-											"Also starting at 6th level, you've learned to keep what works and throw out what doesn't, giving your unique fighting style an extremely competent grasp on the fundamentals. You can use a total of three groundworks, and regain any expended uses when you finish a short or long rest.",
-											"{@bold Compression Lock.} When a creature attempts to break out of a grapple you placed them under and succeeds, you can use your reaction to force the creature to roll again. The creature must use the second result.",
-											"{@bold Quick Pin.} When a creature provokes an opportunity attack from you, you can use your reaction to make a grapple instead of an opportunity attack.",
-											"{@bold To the Mat.} As a bonus action, you can attempt to grapple a creature within range. If you succeed, you also knock that creature {@condition prone}."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Take Control",
-										"entries": [
-											"Starting at 11th level, you count as one size larger for the purposes of grappling. In addition, you have advantage on saving throws made to knock you {@condition prone}."
-										]
-									}
-								]
-							}
-						],
-						[
-							{
-								"entries": [
-									{
-										"type": "entries",
-										"name": "Clean Finish",
-										"entries": [
-											"Starting at 17th level, your mastery of controlling your opponent in combat has reached its peak. While you have a creature {@condition grappled}, you have advantage on all attacks against it. Additionally, when you make an attack with a Beat 'Em Up weapon against a creature you have {@condition grappled}, you score a critical hit on a roll of 19 to 20."
 										]
 									}
 								]

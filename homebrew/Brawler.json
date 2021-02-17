@@ -364,7 +364,7 @@
 						"entries": [
 							"Starting at 2nd level, you can tap into the flow of combat, allowing you to channel a subconscious sense for the direction of a fight. This subconscious sense is represented by a number of flow points. Your Brawler level determines the amount of flow points you have available to you, as shown by the Flow column of the Brawler table.",
 							"Choose two Flow Features below to add to your combat repertoire. You can spend a number of flow points to fuel those features as outlined below. You learn more Flow Features as you gain levels in this class, and regain all expended flow points on a short rest.",
-							"You gain one more Flow Feature at 13th level, and another at 19th level.",
+							"You gain one more Flow Feature at 5th level, 13th level, and a final one at 19th level.",
 							{
 								"type": "abilityDc",
 								"name": "Flow",

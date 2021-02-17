@@ -436,8 +436,15 @@
 								"type": "entries",
 								"name": "Luck & Destiny",
 								"entries": [
+									"As a reaction to you missing an attack roll, you can spend 1 to 3 flow points to increase your attack roll by 2 for each flow point you spend, potentially turning the miss into a hit. If you would turn your miss into a hit, you deal additional damage equal to {@dice 1d8} + your Strength or Dexterity modifier (your choice)."
+								]
+							},
+							{
+								"type": "entries",
+								"name": "Facebreaker",
+								"entries": [
 									"<i>{@bold Prerequisites:} 13th level.</i>",
-									"As a reaction to you failing a Strength, Wisdom, or Charisma check or saving throw, you can spend 3 flow points. Reroll the check or saving throw and choose between any of the results."
+									"As an action, you can spend 5 flow points to channel herculean strength within your fists, unleashing your pent up aggression into a burst of miasmic quaking which seeks to tear all foes asunder. All creatures within a 30-foot cone must make a Strength saving throw. On a failed save, those creatures take {@dice 6d6} + twice your Beat 'Em Up die magical bludgeoning damage. In addition, creatures in a 30-foot line directly in front of you take additional thunder damage equal to your Brawler level."
 								]
 							},
 							{

@@ -852,7 +852,8 @@
 										"type": "entries",
 										"name": "Rising Cruel Victory",
 										"entries": [
-											"Starting at 11th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll. In addition, when a creature makes a saving throw against one of your Piss & Vinegar features, you can use your reaction and spend 1 flow point to impose disadvantage on that roll."
+											"Starting at 11th level, your threats and mean spirited tricks pack an attuned punch, as you grow closer to the flow of victory. When you make a {@skill Intimidation} check, you can use your reaction and spend 1 flow point to give yourself advantage on the roll.",
+											"In addition, when you would take bludgeoning, slashing, or piercing damage from a creature who failed their saving throw against your Salty Salute feature within the last hour, you take reduced damage equal to 2 + your Charisma modifier."
 										]
 									}
 								]

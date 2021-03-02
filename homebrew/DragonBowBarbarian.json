@@ -1,0 +1,143 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "DragonBowBarbarian",
+				"abbreviation": "WBHDBB",
+				"full": "Path of the Dragon Bow Barbarian",
+				"authors": [
+					"Amarulence"
+				],
+				"convertedBy": [
+					"Amarulence#5357"
+				],
+				"version": "1.0.0",
+				"url": "darkserpent.github.io/World-Boundary-Classes/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"optionalfeature": [
+	],
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Path of the Dragon Bow",
+			"subclassTitle": "Primal Path",
+			"subclassFeatures": [
+				"Path of the Dragon Bow|Barbarian|PHB|DragonBow|WBH|3",
+				"Bonus Proficiencies|Barbarian|PHB|DragonBow|WBH|3",
+				"Alchemical Preparation|Barbarian|PHB|DragonBow|WBH|3",
+				"Augmented Fortitude|Barbarian|PHB|DragonBow|WBH|3",
+				"Alchemical Admixture|Barbarian|PHB|DragonBow|WBH|6",
+				"Hulking|Barbarian|PHB|DragonBow|WBH|10",
+				"Monster|Barbarian|PHB|DragonBow|WBH|14"
+			],
+			"source": "WBH",
+			"shortName": "DragonBow",
+			"className": "Barbarian",
+			"classSource": "PHB"
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Path of the Dragon Bow",
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 3,
+			"entries": [
+				"An ancient art—one easily forgotten. For once, in the distant past, for every dragon of good, there were equal opposites; five for every one. The rule of dread. In those ancient times, there must have been someone to answer the call—a person to cull the strong. The Art of the Dragon Bow was developed as humanity's greatest defense against the scions of old. A warrior coated by a singular arm which would normally take up half their body weight and twice their size: the Dragon Bow. A construct forged by the flames, to defeat the flames."
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Bonus Proficiencies",
+			"entries": [
+				"When you choose this archetype, it represents the culmination of your research into alchemically altering your biology and psychology.",
+				"You gain proficiency with alchemist’s supplies, the Medicine skill, and Intelligence saving throws. If you are already proficient in alchemist’s supplies or the Medicine skill, you add double your proficiency bonus to ability checks you make that use them."
+			],
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Alchemical Preparation",
+			"entries": [
+				"You have refined your experiments and discovered {@filter alchemical formulae|optionalfeatures|feature type=Alchemical Formulae} that, when administered, can alter your body and mind whenever you enter a rage. You know 3 alchemical formulae from the Alchemical Formulae list below.",
+				"You prepare doses of these formulae when you finish a long rest, provided you have a set of Alchemist’s supplies available to you. You prepare one dose of each formula, which are unstable and lose their potency 24 hours after you prepare them. The physical nature of how you administer your formulae is up to you (such as vials of liquid you drink, a mist you inhale, an injection, etc.)",
+				"Whenever you enter a rage, you may expend a dose of one of your prepared alchemical formulae, granting you its effects for the duration of that rage. Your prepared alchemical formulae have no effect if used by creatures other than you, or if you attempt to administer them when not entering a rage, as they are tailored to your own unique body chemistry and psychology.",
+				"Some formulae require creatures to make saving throws to resist their effects. The DC to resist a formula’s effect is equal to 8 + your proficiency bonus + your Intelligence modifier."
+			],
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"type": "entries",
+			"name": "Augmented Fortitude",
+			"entries": [
+				"Your biological experiments upon yourself have had a lasting effect on your body, even when not raging. You may use your Intelligence modifier in place of your Constitution modifier when calculating your AC using your barbarian Unarmored Defense feature, to determine how many hit points you restore when you roll a Hit Die, and for calculating your maximum hit points. You may recalculate your hit point maximum retroactively when you gain this feature."
+			],
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 3,
+			"header": 1
+		},
+		{
+			"name": "Alchemical Admixture",
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 6,
+			"header": 2,
+			"entries": [
+				"You discover 3 more alchemical formulae, for a total of 6, and you can prepare two doses of each formulae you know when you finish a long rest. Additionally, when you enter a rage, you can consume up to two doses of different prepared alchemical formulae at once."
+			]
+		},
+		{
+			"name": "Hulking",
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 10,
+			"header": 2,
+			"entries": [
+				"You may add your Intelligence modifier as a bonus to Constitution saving throws. Additionally, when you enter a rage, you can increase your size by one (Small to Medium, Medium to Large, etc). Mundane clothing or armor you are wearing is ruined in the transformation, unless specially made to accommodate your expanding bulk. Such clothing costs twice as much as normal. Magical equipment you wear resizes to your new form, but does not change in statistics. When your rage ends, you and any magical equipment you wear revert to normal size."
+			]
+		},
+		{
+			"name": "Monster",
+			"source": "DragonBowBarbarian",
+			"className": "Barbarian",
+			"classSource": "PHB",
+			"subclassShortName": "DragonBow",
+			"subclassSource": "WBH",
+			"level": 14,
+			"header": 2,
+			"entries": [
+				"You discover additional alchemical formulae equal to your Intelligence modifier (minimum 1), for a total of 6 + your Intelligence modifier. Additionally, whenever you enter a rage, you can gain the effects of up to three alchemical formulae you have prepared."
+			]
+		}
+	]
+}

@@ -27,16 +27,13 @@
 			"name": "Path of the Dragon Bow",
 			"subclassTitle": "Primal Path",
 			"subclassFeatures": [
-				"Path of the Dragon Bow|Barbarian|PHB|DragonBow|WBH|3",
-				"Bonus Proficiencies|Barbarian|PHB|DragonBow|WBH|3",
-				"Alchemical Preparation|Barbarian|PHB|DragonBow|WBH|3",
-				"Augmented Fortitude|Barbarian|PHB|DragonBow|WBH|3",
-				"Alchemical Admixture|Barbarian|PHB|DragonBow|WBH|6",
-				"Hulking|Barbarian|PHB|DragonBow|WBH|10",
-				"Monster|Barbarian|PHB|DragonBow|WBH|14"
+				"Path of the Dragon Bow|Barbarian|PHB|Dragon Bow|WBH|3",
+				"Sight of the Ancient Gods|Barbarian|PHB|Dragon Bow|WBH|6",
+				"Focus the Sky|Barbarian|PHB|Dragon Bow|WBH|10",
+				"Down the Desperate|Barbarian|PHB|Dragon Bow|WBH|14"
 			],
 			"source": "WBH",
-			"shortName": "DragonBow",
+			"shortName": "Dragon Bow",
 			"className": "Barbarian",
 			"classSource": "PHB"
 		}
@@ -44,99 +41,93 @@
 	"subclassFeature": [
 		{
 			"name": "Path of the Dragon Bow",
-			"source": "DragonBowBarbarian",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 3,
 			"entries": [
-				"An ancient art—one easily forgotten. For once, in the distant past, for every dragon of good, there were equal opposites; five for every one. The rule of dread. In those ancient times, there must have been someone to answer the call—a person to cull the strong. The Art of the Dragon Bow was developed as humanity's greatest defense against the scions of old. A warrior coated by a singular arm which would normally take up half their body weight and twice their size: the Dragon Bow. A construct forged by the flames, to defeat the flames."
+				"An ancient art—one easily forgotten. For once, in the distant past, for every dragon of good, there were equal opposites; five for every one. The rule of dread. In those ancient times, there must have been someone to answer the call—a person to cull the strong. The Art of the Dragon Bow was developed as humanity's greatest defense against the scions of old. A warrior coated by a singular arm which would normally take up half their body weight and twice their size: the Dragon Bow. A construct forged by the flames, to defeat the flames.",
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Drosum Sroaear|Barbarian|PHB|Dragon Bow|WBH|3"
+				},
+				{
+					"type": "refSubclassFeature",
+					"subclassFeature": "Dragon's Bane|Barbarian|PHB|Dragon Bow|WBH|3"
+				}
 			]
 		},
 		{
 			"type": "entries",
-			"name": "Bonus Proficiencies",
+			"name": "Drosum Sroaear",
 			"entries": [
-				"When you choose this archetype, it represents the culmination of your research into alchemically altering your biology and psychology.",
-				"You gain proficiency with alchemist’s supplies, the Medicine skill, and Intelligence saving throws. If you are already proficient in alchemist’s supplies or the Medicine skill, you add double your proficiency bonus to ability checks you make that use them."
+				"Starting at 3rd level, the blood you have inherited from your ancestors allow you pursue the ancient art Drosum Sroaear—Dragon Slaying. In order to defeat the prodigial creatures who roam the skies, it was pertinent to create a weapon that could fell them, referred to as the &quot;Greatbow&quot; in the ancient times, or in present day: the &quot;Dragon Bow&quot;.",
+				"You gain proficiency in your greatbow, which is a martial ranged weapon that deals {@dice 2d6} piercing damage with a range of 15/30 feet. It has the {@italics ammunition, heavy,} and {@italics two-handed} properties. The ammunition your greatbow draws from is magical in nature, although you do not supply your arrows with mana—instead, you manifest crimson arrow by utilizing your own life force. This red-tainted ammunition appears to be made of blood, but has the consistency of cold steel. You are always considered to have these arrows prepared during combat.",
+				"Once you reach 5th level, your greatbow becomes magical and grants a +1 bonus to attack and damage rolls. This bonus increases as you gain levels in this subclass, increasing to +2 at 9th level and +3 at 16th level. Finally, when you make a ranged weapon attack using your greatbow while raging, you gain a +2 to the damage roll. This bonus increases to +3 at 9th level and +4 at 16th level."
 			],
-			"source": "DragonBowBarbarian",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 3,
 			"header": 1
 		},
 		{
 			"type": "entries",
-			"name": "Alchemical Preparation",
+			"name": "Dragon's Bane",
 			"entries": [
-				"You have refined your experiments and discovered {@filter alchemical formulae|optionalfeatures|feature type=Alchemical Formulae} that, when administered, can alter your body and mind whenever you enter a rage. You know 3 alchemical formulae from the Alchemical Formulae list below.",
-				"You prepare doses of these formulae when you finish a long rest, provided you have a set of Alchemist’s supplies available to you. You prepare one dose of each formula, which are unstable and lose their potency 24 hours after you prepare them. The physical nature of how you administer your formulae is up to you (such as vials of liquid you drink, a mist you inhale, an injection, etc.)",
-				"Whenever you enter a rage, you may expend a dose of one of your prepared alchemical formulae, granting you its effects for the duration of that rage. Your prepared alchemical formulae have no effect if used by creatures other than you, or if you attempt to administer them when not entering a rage, as they are tailored to your own unique body chemistry and psychology.",
-				"Some formulae require creatures to make saving throws to resist their effects. The DC to resist a formula’s effect is equal to 8 + your proficiency bonus + your Intelligence modifier."
+				"Due to your greatbow's size, it can only be used by a Medium or larger creature that has a Strength of 18 or higher, and its ammunition cannot be modified or exchanged for magical ammunition. A creature with the Might of the Small or the Woke feat can bypass the size restriction, but that creature still must have a Strength score of 18 or higher. Finally, you can benefit from the Great Weapon Master feat with your greatbow, but not from the Sharpshooter feat."
 			],
-			"source": "DragonBowBarbarian",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 3,
 			"header": 1
 		},
 		{
-			"type": "entries",
-			"name": "Augmented Fortitude",
-			"entries": [
-				"Your biological experiments upon yourself have had a lasting effect on your body, even when not raging. You may use your Intelligence modifier in place of your Constitution modifier when calculating your AC using your barbarian Unarmored Defense feature, to determine how many hit points you restore when you roll a Hit Die, and for calculating your maximum hit points. You may recalculate your hit point maximum retroactively when you gain this feature."
-			],
-			"source": "DragonBowBarbarian",
+			"name": "Sight of the Ancient Gods",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
-			"subclassSource": "WBH",
-			"level": 3,
-			"header": 1
-		},
-		{
-			"name": "Alchemical Admixture",
-			"source": "DragonBowBarbarian",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"You discover 3 more alchemical formulae, for a total of 6, and you can prepare two doses of each formulae you know when you finish a long rest. Additionally, when you enter a rage, you can consume up to two doses of different prepared alchemical formulae at once."
+				"Starting at 6th level, so long as you are raging, being within 5 feet of a hostile creature does not impose disadvantage on your ranged weapon attacks. In addition, when you use your Reckless Attack feature, you can apply the advantage to your greatbow."
 			]
 		},
 		{
-			"name": "Hulking",
-			"source": "DragonBowBarbarian",
+			"name": "Focus the Sky",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"You may add your Intelligence modifier as a bonus to Constitution saving throws. Additionally, when you enter a rage, you can increase your size by one (Small to Medium, Medium to Large, etc). Mundane clothing or armor you are wearing is ruined in the transformation, unless specially made to accommodate your expanding bulk. Such clothing costs twice as much as normal. Magical equipment you wear resizes to your new form, but does not change in statistics. When your rage ends, you and any magical equipment you wear revert to normal size."
+				"Starting at 10th level, you have mastered your heritage, truly inheriting the anicent blood which calls to you. As per the teachings of your ancestors, you have begun to manifest the traits of a dragon, allowing you to truly fight them in a space once impossible due to your limited strength.",
+				"As a bonus action while you are raging, you can increase the range of your greatbow to 30/60. In addition, your Brutal Critical feature now applies to ranged weapon attacks you make with your greatbow."
 			]
 		},
 		{
-			"name": "Monster",
-			"source": "DragonBowBarbarian",
+			"name": "Down the Desperate",
+			"source": "WBH",
 			"className": "Barbarian",
 			"classSource": "PHB",
-			"subclassShortName": "DragonBow",
+			"subclassShortName": "Dragon Bow",
 			"subclassSource": "WBH",
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"You discover additional alchemical formulae equal to your Intelligence modifier (minimum 1), for a total of 6 + your Intelligence modifier. Additionally, whenever you enter a rage, you can gain the effects of up to three alchemical formulae you have prepared."
+				"Starting at 14th level, if a creature misses you with a melee weapon attack, you can reposition yourself. As a reaction, you quickly roll to an unoccupied space within 15 feet without provoking opportunity attacks. On arrival, you click open your greatbow, immediately nocking a crimson arrow and firing as part of the same motion.",
+				"If you successfully hit a creature with this special attack, your arrow explodes into a marvel of blood, knocking that creature back 5 feet and dealing an additional {@dice 1d6} force damage."
 			]
 		}
 	]

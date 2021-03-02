@@ -275,7 +275,7 @@
 			"level": 15,
 			"header": 2,
 			"entries": [
-				"At 15th level, you have discovered a method to infuse your ammunition with advanced elemental energy, when a creature takes damage from your arcane ammunition, you may force the creature to make a Constitution saving throw against your Artificer spell save DC or suffer one of the following effects determined by a {@dice d8} roll.",
+				"At 15th level, you have discovered a method to infuse your ammunition with advanced elemental energy. When a creature takes damage from your arcane ammunition, you may force the creature to make a Constitution saving throw against your Artificer spell save DC or suffer one of the following effects determined by a {@dice d8} roll.",
 				{
 					"type": "list",
 					"items": [
@@ -283,42 +283,42 @@
 							"type": "entries",
 							"name": "1-Red.",
 							"entries": [
-								"The target takes {@dice 10d6} fire damage on a failed save, or half as much damage on a successful one."
+								"The target takes {@dice 10d8} fire damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "2-Orange.",
 							"entries": [
-								"The target takes {@dice 10d6} acid damage on a failed save, or half as much damage on a successful one."
+								"The target takes {@dice 10d8} acid damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "3-Yellow.",
 							"entries": [
-								"The target takes {@dice 10d6} lightning damage on a failed save, or half as much damage on a successful one."
+								"The target takes {@dice 10d8} lightning damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "4-Green.",
 							"entries": [
-								"The target takes {@dice 10d6} poison damage on a failed save, or half as much damage on a successful one."
+								"The target takes {@dice 10d8} poison damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "5-Blue.",
 							"entries": [
-								"The target takes {@dice 10d6} cold damage on a failed save, or half as much damage on a successful one."
+								"The target takes {@dice 10d8} cold damage on a failed save, or half as much damage on a successful one."
 							]
 						},
 						{
 							"type": "entries",
 							"name": "6-Indigo.",
 							"entries": [
-								"On a failed save, the target is restrained. It must then make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
+								"On a failed save, the target is {@condition restrained}. It must make a Constitution saving throw at the end of each of its turns. If it successfully saves three times, the spell ends. If it fails its save three times, it permanently turns to stone and is subjected to the petrified condition. The successes and failures don't need to be consecutive, keep track of both until the target collects three of a kind."
 							]
 						},
 						{

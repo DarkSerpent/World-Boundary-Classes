@@ -90,8 +90,8 @@
 			"level": 10,
 			"header": 2,
 			"entries": [
-				"Starting at 10th level, you have mastered your heritage, truly inheriting the anicent blood which calls to you. As per the teachings of your ancestors, you have begun to manifest the traits of a dragon, allowing you to truly fight them in a space once impossible due to your limited strength.",
-				"Your Brutal Critical feature now applies to ranged weapon attacks you make with your greatbow. In addition, as a bonus action while you are raging, you can increase the range of your greatbow to 60/120 until the start of your next turn."
+				"Starting at 10th level, you have mastered your heritage, truly inheriting the anicent blood which calls to you. As per the teachings of your ancestors, you have begun to manifest the traits of a dragon, allowing you to truly fight them in a space once impossible due to your limited strength. Your Brutal Critical feature now applies to ranged weapon attacks you make with your greatbow.",
+				"In addition, at the start of your turn in combar, you can increase the range of your greatbow to 60/120 by subsequently sacrificing your movement for that turn. The range of your greatbow increases and your movement speed becomes 0 until the start of your next turn. In order to use this feature, your remaining movement must be equal to your movement speed, and cannot be less."
 			]
 		},
 		{

@@ -54,7 +54,7 @@
 					"name": "Drosum Sroaear",
 					"entries": [
 						"Starting at 3rd level, the blood you have inherited from your ancestors allow you pursue the ancient art Drosum Sroaear—Dragon Slaying. In order to defeat the prodigial creatures who roam the skies, it was pertinent to create a weapon that could fell them, referred to as the Greatbow in the ancient times, or in present day: the Dragon Bow.",
-						"You gain proficiency in your greatbow, which is a martial ranged weapon that deals {@dice 2d6} piercing damage with a range of 15/30 feet. It has the ammunition, heavy, and two-handed properties. The ammunition your greatbow draws from a manifestation of your internal spirit: crimson arrows created utilizing your own life force. This red-tainted ammunition appears to be made of blood, but has the consistency of cold steel. You are always considered to have these arrows prepared during combat.",
+						"You gain proficiency in your greatbow, which is a martial ranged weapon that deals {@dice 1d12} piercing damage with a range of 30/60 feet. It has the ammunition, heavy, and two-handed properties. The ammunition your greatbow draws from a manifestation of your internal spirit: crimson arrows created utilizing your own life force. This red-tainted ammunition appears to be made of blood, but has the consistency of cold steel. You are always considered to have these arrows prepared during combat.",
 						"Once you reach 5th level, your greatbow becomes magical and grants a +1 bonus to attack and damage rolls. This bonus increases as you gain levels in this subclass, increasing to +2 at 9th level and +3 at 16th level. Finally, when you make a ranged weapon attack using your greatbow while raging, you gain a +2 to the damage roll. This bonus increases to +3 at 9th level and +4 at 16th level."
 					]
 				},
@@ -66,36 +66,6 @@
 					]
 				}
 			]
-		},
-		{
-			"type": "entries",
-			"name": "Drosum Sroaear",
-			"entries": [
-				"Starting at 3rd level, the blood you have inherited from your ancestors allow you pursue the ancient art Drosum Sroaear—Dragon Slaying. In order to defeat the prodigial creatures who roam the skies, it was pertinent to create a weapon that could fell them, referred to as the &quot;Greatbow&quot; in the ancient times, or in present day: the &quot;Dragon Bow&quot;.",
-				"You gain proficiency in your greatbow, which is a martial ranged weapon that deals {@dice 2d6} piercing damage with a range of 15/30 feet. It has the {@italics ammunition, heavy,} and {@italics two-handed} properties. The ammunition your greatbow draws from is magical in nature, although you do not supply your arrows with mana—instead, you manifest crimson arrow by utilizing your own life force. This red-tainted ammunition appears to be made of blood, but has the consistency of cold steel. You are always considered to have these arrows prepared during combat.",
-				"Once you reach 5th level, your greatbow becomes magical and grants a +1 bonus to attack and damage rolls. This bonus increases as you gain levels in this subclass, increasing to +2 at 9th level and +3 at 16th level. Finally, when you make a ranged weapon attack using your greatbow while raging, you gain a +2 to the damage roll. This bonus increases to +3 at 9th level and +4 at 16th level."
-			],
-			"source": "WBH",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Dragon Bow",
-			"subclassSource": "WBH",
-			"level": 3,
-			"header": 1
-		},
-		{
-			"type": "entries",
-			"name": "Weapon of Eccentricity",
-			"entries": [
-				"Due to your greatbow's size, it can only be used by a Medium or larger creature that has a Strength of 18 or higher, and its ammunition cannot be modified or exchanged for magical ammunition. A creature with the Might of the Small or the Woke feat can bypass the size restriction, but that creature still must have a Strength score of 18 or higher. Finally, you can benefit from the Great Weapon Master feat with your greatbow, but not from the Sharpshooter feat."
-			],
-			"source": "WBH",
-			"className": "Barbarian",
-			"classSource": "PHB",
-			"subclassShortName": "Dragon Bow",
-			"subclassSource": "WBH",
-			"level": 3,
-			"header": 1
 		},
 		{
 			"name": "Sight of the Ancient Gods",
@@ -121,7 +91,7 @@
 			"header": 2,
 			"entries": [
 				"Starting at 10th level, you have mastered your heritage, truly inheriting the anicent blood which calls to you. As per the teachings of your ancestors, you have begun to manifest the traits of a dragon, allowing you to truly fight them in a space once impossible due to your limited strength.",
-				"As a bonus action while you are raging, you can increase the range of your greatbow to 30/60. In addition, your Brutal Critical feature now applies to ranged weapon attacks you make with your greatbow."
+				"Your Brutal Critical feature now applies to ranged weapon attacks you make with your greatbow. In addition, as a bonus action while you are raging, you can increase the range of your greatbow to 60/120 until the start of your next turn."
 			]
 		},
 		{

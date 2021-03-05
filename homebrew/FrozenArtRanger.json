@@ -1,0 +1,228 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "FrozenArtRanger",
+				"abbreviation": "WBHFAR",
+				"full": "Frozen Art Ranger",
+				"authors": [
+					"Amarulence"
+				],
+				"convertedBy": [
+					"Amarulence#5357"
+				],
+				"version": "1.0.0",
+				"url": "darkserpent.github.io/World-Boundary-Classes/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"subclass": [
+		{
+			"version": "1.0.0",
+			"name": "Frozen Art",
+			"subclassTitle": "Ranger Archetype",
+			"subclassFeatures": [
+				"Frozen Art|Ranger||Frozen Art|WBH|3",
+				"Rime of the Frostmaiden|Ranger||Frozen Art|WBH|7",
+				"Blooming Chaos|Ranger||Frozen Art|WBH|11",
+				"Flash Freeze|Ranger||Frozen Art|WBH|15"
+			],
+			"source": "WBH",
+			"shortName": "Frozen Art",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"additionalSpells": [
+				{
+					"prepared": {
+						"3": [
+							"ice knife"
+						],
+						"5": [
+							"mirror image"
+						],
+						"9": [
+							"sleet storm"
+						],
+						"13": [
+							"control water"
+						],
+						"17": [
+							"cone of cold"
+						]
+					}
+				}
+			]
+		}
+	],
+	"subclassFeature": [
+		{
+			"name": "Frozen Art",
+			"source": "WBH",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Frozen Art",
+			"subclassSource": "WBH",
+			"level": 3,
+			"entries": [
+				"A manifestation of the ancient shinobi arts—the Cold Sigil is the awakening crest given to those who practice the frozen arts. Rangers who awake in the tundra and sleep in the boreal valley are this artform's sole followers. The frigid wrath of the fjords and the harrowing call of the angel they serve guide their actions like a beacon of destruction.",
+				{
+					"type": "entries",
+					"name": "Frozen Art Spells",
+					"entries": [
+						"As a Frozen Artist you learn an additional spell when you reach certain levels in this class, as shown in the Frozen Art Spells table. The spell counts as a ranger spell for you, but it doesn't count against the number of ranger spells you know.",
+						{
+							"type": "table",
+							"caption": "Frozen Art Spells",
+							"colLabels": [
+								"Ranger Level",
+								"Spell"
+							],
+							"colStyles": [
+								"col-2 text-center",
+								"col-10"
+							],
+							"rows": [
+								[
+									"3rd",
+									"{@spell ice knife}"
+								],
+								[
+									"5th",
+									"{@spell mirror image}"
+								],
+								[
+									"9th",
+									"{@spell sleet storm}"
+								],
+								[
+									"13th",
+									"{@spell control water}"
+								],
+								[
+									"17th",
+									"{@spell cone of cold}"
+								]
+							]
+						}
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Cold Sigil",
+					"entries": [
+						"Starting at 3rd level, you can utilize the power of the Cold Sigil to imbue your spells and attacks with the essence of winter. You can exchange the damage type of your weapon attacks and ranger spells with cold damage. This exchange does not affect extrinsic properties of your weapons, such as magic item damage. In addition, when you deal damage to a creature that is not resistant or immune to cold damage, that creature's movement speed is reduced by 10 until the end of their next turn.",
+						"Finally, if your target is surrounded by fog, mist, precipitation, or is frozen, wet, or cold, that target takes an additional {@dice 1d6} cold damage when you deal cold damage, and that target has disadvantage on saving throws for features granted by this archetype (not including spells from your expanded spell list)."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Artist of Winter",
+					"entries": [
+						"Also starting at 3rd level, you learn the {@spell shape water} cantrip and the spell {@spell create or destroy water}. In addition, these spells receive the following additional effects due to your ranger archetype:",
+						{
+							"type": "list",
+							"items": [
+								"You can use {@spell shape water} to move or melt frozen water in addition to unfrozen water.",
+								"Water that you create using {@spell create or destroy water} can manifest as a snowfall with a radius of 30-feet, extinguishing flames and freezing water within the area. This snowfall lasts until the start of your next turn, and counts as precipitation for the purposes of Cold Sigil.",
+								"Starting at 11th level, you can cast {@spell shape water} and {@spell create or destroy water} as a bonus action instead of an action."
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"type": "entries",
+			"name": "Extra Attack",
+			"entries": [
+				"If you’re playing the Revised Ranger introduced in Unearthed Arcana, you also gain the Extra Attack feature.",
+				"Beginning at 5th level, you can attack twice, instead of once, whenever you take the Attack action on your turn."
+			],
+			"source": "WBH",
+			"page": 89,
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Frozen Art",
+			"subclassSource": "WBH",
+			"level": 5,
+			"header": 1
+		},
+		{
+			"name": "Rime of the Frostmaiden",
+			"source": "WBH",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Frozen Art",
+			"subclassSource": "WBH",
+			"level": 7,
+			"header": 2,
+			"entries": [
+				"Starting at 7th level, the Blessing of the Frostmaiden has manifested itself within your veins, granting you increased control and understanding of the icy tundra. You gain the following benefits:",
+				{
+					"type": "list",
+					"items": [
+						"You gain resistance to cold damage.",
+						"You ignore the effects of light and heavy obscurement within 60 feet of you.",
+						"You ignore difficult terrain imposed on you via magical and non-magical ice, water, and precipitation.",
+						"Your ranger spells, attacks, and subclass features ignore cold resistance, and treat cold immunity as resistance."
+					]
+				}
+			]
+		},
+		{
+			"name": "Blooming Chaos",
+			"source": "WBH",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Frozen Art",
+			"subclassSource": "WBH",
+			"level": 11,
+			"header": 2,
+			"entries": [
+				"Starting at 11th level, your jurisdiction over the Cold Sigil has grown, allowing you to manifest and manipulate ice and its idealized principles in ways once impossible through your magic. When you use Blooming Chaos, choose one of the effects from the list below to replicate. You can use Blooming Chaos a number of times equal to your Wisdom modifier, and regain all uses on a long rest.",
+				{
+					"type": "entries",
+					"name": "Diamond Blizzard",
+					"entries": [
+						"As an action, you crystalize an icicle-shaped piece of ammunition into your hand and load it into a {@item longbow|phb} or {@item shortbow|phb}. As part of that same action, you ready an attack against a creature within range, which will trigger at the start of your next turn.",
+						"At the start of your next turn, you fire the frozen ammunition at your target, rolling with advantage if the creature is within 10 feet of you. On a hit, along with the normal effects of your ranged weapon attack, the target takes an additional {@dice 4d8} + your Wisdom modifier cold damage as you fire a line of icicles into their form.",
+						"Finally, instead of reducing the target's movement speed by 10, you reduce their movement speed by 20 until the end of their next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Icicle Fall",
+					"entries": [
+						"As an attack action, you aim your {@item longbow|phb} or {@item shortbow|phb}, crystalizing several icicle-shaped pieces of ammunition into its drawstring and firing. All hostile creatures within a 30-foot cone take {@dice 2d4+1} cold damage and have their movement speed reduced by half until the end of their next turn."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Frozen Dash",
+					"entries": [
+						"As a bonus action, your body rematerializes into an aura of frost, rushing forward to an unoccupied space within 15 feet without provoking opportunity attacks. Upon reaching your destination, your body reforms back, now covered by an ice-hardened shell. You gain {@dice 3d4+2} temporary hit points."
+					]
+				}
+			]
+		},
+		{
+			"name": "Flash Freeze",
+			"source": "WBH",
+			"className": "Ranger",
+			"classSource": "PHB",
+			"subclassShortName": "Frozen Art",
+			"subclassSource": "WBH",
+			"level": 15,
+			"header": 2,
+			"entries": [
+				"Starting at 15th level, you now command both the frozen elements and the water particles in the air, granting you a resplendent control over the battlefield and your enemies.",
+				"When a creature takes cold damage from one of your weapon attacks, ranger spells, or subclass features, you can attempt to cause a flash freeze, solidifying the air around the creature and manifesting an inescapable cage of permafrost.",
+				"That creature must make a Constitution saving throw equal to your ranger spell save DC or become {@condition petrified} for one minute, provided that creature is not immune to cold damage. While petrified in this way, the target can repeat the saving throw at the end of each of its turns, ending the effect on a success.",
+				"You can attempt to freeze a target with this feature a number of times equal to your Wisdom modifier, and you regain all uses on a long rest. Creatures that are normally immune to cold damage are immune to the effects of Flash Freeze."
+			]
+		}
+	]
+}

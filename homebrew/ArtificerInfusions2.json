@@ -1,0 +1,88 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "WBInfusions",
+				"abbreviation": "WBI",
+				"full": "World Boundary Infusions",
+				"authors": [
+					"Amarulence"
+				],
+				"convertedBy": [
+					"Amarulence#5357"
+				],
+				"version": "1.0.0",
+				"url": "darkserpent.github.io/World-Boundary-Classes/",
+				"targetSchema": "1.2"
+			}
+		],
+		"dateAdded": 1605548980,
+		"dateLastModified": 1605548980
+	},
+	"optionalfeature": [
+		{
+			"name": "Armor of Emergencies",
+			"source": "WBInfusions",
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Artificer"
+						}
+					},
+					"item": [
+						"a suit of armor (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+				"When you finish a short or long rest, you can cast a cantrip or a spell of 1st level with a casting time of 1 action, and describe a circumstance. For example, you could set up the armor to cast cure wounds on the person wearing this armor when they are reduced to zero hit points. The spell takes effect when the circumstance you described is met, rather than when you cast it. The spell can only affect the person wearing and attuned to this item, even if it can normally target others. Once the spell is cast, the armor loses this ability until the next dawn."
+			]
+		},
+		{
+			"name": "Corpse Shaker",
+			"source": "WBInfusions",
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"level": {
+						"level": 6,
+						"class": {
+							"name": "Artificer"
+						}
+					},
+					"item": [
+						"a crystal worth at least 100 gp"
+					]
+				}
+			],
+			"entries": [
+				"You have learned how to harness the power of magic to momentarily restore a creature to life. As an action, you can thrust the item you infused into a creature that has died within the last minute. That creature returns to life for one minute with 1 hit point and a number of temporary hit points equal to five times your artificer level. After the minute is over, if the creature is still alive, it dies.",
+				"Once used, the corpse shaker must recharge and cannot be used again for 24 hours."
+			]
+		},
+		{
+			"name": "Tracking Sensor",
+			"source": "WBInfusions",
+			"featureType": [
+				"AI"
+			],
+			"prerequisite": [
+				{
+					"item": [
+						"any tiny object (requires attunement)"
+					]
+				}
+			],
+			"entries": [
+				"You always know the direction and distance of this item as long as you are attuned to it, and it is within 1 mile of you. As usual, you lose your attunement to this item if it is further than 100 feet from you for 24 hours."
+			]
+		}
+	]
+}

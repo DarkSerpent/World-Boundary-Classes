@@ -347,7 +347,8 @@
 								"items": [
 									"Its claw attacks deal an additional {@dice 1d4} slashing damage.",
 									"Its flying speed increases by 15 feet, and it’s other speeds increase by 5 feet.",
-									"The dragon's wings are stronger, and it no longer falls to the ground if it ends its turn in the air."
+									"The dragon's wings are stronger, and it no longer falls to the ground if it ends its turn in the air.",
+									"Your dragon gains the ability to transform into a Medium-sized humanoid form, or back to its true form at will. Your dragon decides the humanoid form it takes, although its humanoid form cannot be altered after the fact. Your dragon cannot participate in combat effectively while in this shapeshifted state, and automatically transforms back when battle begins."
 								]
 							}
 						]
@@ -599,7 +600,7 @@
 					{
 						"name": "Ancient Resilience",
 						"entries": [
-							"At 17th level, you can shrug off even the most dangerous effects. Whenever you or your dragon would fail a saving throw, you can choose to succeed instead. You can't do so again until you finish a long rest."
+							"At 17th level, you can shrug off even the most dangerous effects. Whenever you or your dragon would fail a saving throw, you can choose to succeed instead. You can't do so again until you finish a long rest. Finally, the size of your dragon becomes Huge."
 						]
 					}
 				],

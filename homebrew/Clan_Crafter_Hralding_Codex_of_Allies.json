@@ -1099,16 +1099,16 @@
 			"shortName": "Seeker",
 			"source": "CoA",
 			"subclassSpells": [
-				"comprehend languages",
-				"detect magic",
-				"levitate",
+				"longstrider",
+				"featherfall",
+				"phantasmal force",
 				"locate object",
 				"clairvoyance",
-				"sending",
-				"arcane eye",
+				"blink",
+				"phantasmal killer",
 				"locate creature",
 				"legend lore",
-				"passwall"
+				"antilife shell"
 			],
 			"subclassFeatures": [
 				"The Seeker|Warlock||Seeker|CoA|1",
@@ -1120,24 +1120,24 @@
 				{
 					"expanded": {
 						"1": [
-							"comprehend languages",
-							"detect magic"
+							"longstrider",
+							"feather fall"
 						],
 						"2": [
-							"levitate",
+							"phantasmal force",
 							"locate object"
 						],
 						"3": [
 							"clairvoyance",
-							"sending"
+							"blink"
 						],
 						"4": [
-							"arcane eye",
+							"phantasmal killer",
 							"locate creature"
 						],
 						"5": [
 							"legend lore",
-							"passwall"
+							"antilife shell"
 						]
 					}
 				}
@@ -1146,24 +1146,24 @@
 				{
 					"expanded": {
 						"1": [
-							"comprehend languages",
-							"detect magic"
+							"longstrider",
+							"feather fall"
 						],
 						"2": [
-							"levitate",
+							"phantasmal force",
 							"locate object"
 						],
 						"3": [
 							"clairvoyance",
-							"sending"
+							"blink"
 						],
 						"4": [
-							"arcane eye",
+							"phantasmal killer",
 							"locate creature"
 						],
 						"5": [
 							"legend lore",
-							"passwall"
+							"antilife shell"
 						]
 					}
 				}
@@ -5183,23 +5183,23 @@
 					"rows": [
 						[
 							"1st",
-							"{@spell comprehend languages}, {@spell detect magic}"
+							"{@spell longstrider}, {@spell feather fall}"
 						],
 						[
 							"2nd",
-							"{@spell levitate}, {@spell locate object}"
+							"{@spell phantasmal force}, {@spell locate object}"
 						],
 						[
 							"3rd",
-							"{@spell clairvoyance}, {@spell sending}"
+							"{@spell clairvoyance}, {@spell blink}"
 						],
 						[
 							"4th",
-							"{@spell arcane eye}, {@spell locate creature}"
+							"{@spell phantasmal killer}, {@spell locate creature}"
 						],
 						[
 							"5th",
-							"{@spell legend lore}, {@spell passwall}"
+							"{@spell legend lore}, {@spell antilife shell}"
 						]
 					]
 				}
@@ -5217,8 +5217,9 @@
 			"name": "Astral Conjuration",
 			"type": "entries",
 			"entries": [
-				"Starting at 1st level, you can invoke the Seeker's power to mold astral energy into objects on your plane. As an action, you can concentrate (like a spell) to conjure astral energy to create a solid, translucent staircase or bridge that lasts 1 minute or until your concentration ends.",
-				"The stairs form a spiral that fills a 10-foot-by-10-foot area and reaches upward 20 feet. The bridge is flat, 10 feet wide, and up to 40 feet long. You can expend a spell slot to extend the height of the stairs or the length of the bridge by up to 20 feet per level of the spell slot expended. One you use this feature you cannot do so again until you finish a short or long rest."
+				"Starting at 1st level, you can invoke the Seeker's power to mold astral energy into objects on your plane. As an action, you can conjure astral energy to create a solid, translucent staircase or bridge that lasts 10 minutes.",
+				"The stairs form a spiral that fills a 10-foot-by-10-foot area and reaches upward 20 feet. The bridge is flat, 10 feet wide, and up to 40 feet long. You can expend a spell slot to extend the height of the stairs or the length of the bridge by up to 20 feet per level of the spell slot expended.",
+				"You can use this feature a number of times equal to your Charisma modifier, and regain all expended uses on a long rest."
 			],
 			"source": "CoA",
 			"page": 105,
@@ -5277,7 +5278,7 @@
 					"type": "list",
 					"items": [
 						"You can move as though you are under the effects of the {@i {@spell spider climb}} spell.",
-						"You no longer need to breathe.",
+						"You no longer need to breathe, and can survive in a vacuum.",
 						"You have resistance to cold damage and are adapted to cold environments. You can switch this resistance to fire damage, and your adaptation to hot environments during a long rest. The effects last until you switch your resistances again."
 					]
 				}
@@ -5294,7 +5295,9 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, as an action you can open a temporal rift around a creature of your choice. The target must succeed on a Wisdom saving throw against your spell save DC or move l round forward in time. A target moved forward in time vanishes for the duration. When the effect ends, the target reappears in the space it left or in an unoccupied space nearest to that space if it's occupied. Once you use this feature you cannot do so again until you finish a short or long rest."
+				"Starting at 14th level, you can open up a temporal rift to the Astral Plane as an action. All creatures of your choice within a 15-foot radius at a point within 60 feet of you must make a Charisma saving throw against your spell save DC.",
+				"On a failed save, those creatures are sucked into the Astral Plane and stored in stasis for one round. Those creatures skip their next turn, and return at the start of their turn after the skipped turn. If the space they left is occupied, they reappear in the nearest unoccupied space within 5-feet.",
+				"Once you use this feature, you cannot use it again until you finish a short or long rest."
 			]
 		},
 		{

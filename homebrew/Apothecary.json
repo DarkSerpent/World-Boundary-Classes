@@ -577,7 +577,7 @@
 			"classSource": "WB: RD",
 			"level": 17,
 			"entries": [
-				"At 17th level you have perfected the techniques used to extract the essence of rare ingredients. Whenever you create an elemental concoction, it gains added benefits. If it was a poison or bomb, your Concoction die increases by {@dice 2d4}. If it was an incense or painkiller, one target gains resistance to that damage type for 3 rounds."
+				"At 17th level you have perfected the techniques used to extract the essence of rare ingredients. Whenever you create an elemental concoction, it gains added benefits. If it was a poison or bomb, your Concoction die increases by {@dice 2d4}. If it was an incense or painkiller, one target gains immunity to that damage type for 3 rounds."
 			]
 		},
 		{
@@ -668,8 +668,7 @@
 			"level": 6,
 			"header": 2,
 			"entries": [
-				"By 6th level, you have discovered a substance that flushes the body of filth. When you use your painkiller concoction you may spend 2 reagent points to make it cure ailments acting as if you had cast lesser restoration on the target in addition to giving temporary hit points. Alternatively, you can spend 3 reagent points to give a painkiller the additional effect of cure wounds as a 2nd-level spell.",
-				"You can use this feature a number of times equal to your Wisdom modifier, and it has no effect on undead or constructs. All uses refresh on a long rest."
+				"By 6th level, you have discovered a substance that flushes the body of filth. When you use your painkiller concoction you may spend 2 reagent points to make it cure ailments acting as if you had cast lesser restoration on the target in addition to giving temporary hit points. Alternatively, you can spend 3 reagent points to give a painkiller the additional effect of cure wounds as a 2nd-level spell."
 			]
 		},
 		{

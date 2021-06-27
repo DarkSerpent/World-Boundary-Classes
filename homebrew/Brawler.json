@@ -469,8 +469,9 @@
 					{
 						"name": "Haymaker",
 						"entries": [
-							"At 5th level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
-							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. Doing so gives you disadvantage on that first attack. On a successful hit, you add double your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage."
+							"At 3rd level, you can throw aside all concern for accuracy in order to land a square, crushing blow onto your opponent.",
+							"When you make your first attack on your turn, you can decide to throw a powerful Haymaker onto your opponent. That attack must be made with a Beat 'Em Up weapon.",
+							"Doing so gives you disadvantage on that first attack. On a successful hit, you add one your Beat 'Em Up die to the damage of that attack, and every attack afterwards until the end of your turn has advantage."
 						]
 					},
 					{

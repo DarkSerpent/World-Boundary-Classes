@@ -616,14 +616,13 @@
 			"classSource": "SRPReRevisedRanger",
 			"level": 8,
 			"entries": [
-				"Starting at 8th level, you gain the following benefits as you've became an effective hunter in acting quickly.",
+				"Starting at 8th level, your nature as an effective hunter has bestowed upon you the following benefits:",
 				{
 					"type": "list",
 					"items": [
 						"You can take the Dash action as a bonus action.",
 						"You ignore difficult terrain.",
-						"You have advantage on initiative rolls.",
-						"On your first turn during combat, you have advantage on attack rolls against creatures that have not yet acted."
+						"You have advantage on initiative rolls."
 					]
 				}
 			]
@@ -692,7 +691,7 @@
 					"type": "entries",
 					"name": "Enduring Foe",
 					"entries": [
-						"Whenever you use your Tireless, you have advantage on all saving throws made against you until the end of your next turn. Additionally, whenever you roll the temporary hitpoints for Tireless, you may reroll the result and choose one of the results."
+						"You can use your Tireless benefit as a bonus action. Additionally, when you roll the temporary hitpoints for Tireless, you can reroll the result. You choose which result to use."
 					]
 				}
 			]

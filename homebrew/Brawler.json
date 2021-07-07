@@ -377,7 +377,7 @@
 								"type": "entries",
 								"name": "Strike Steel",
 								"entries": [
-									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Constitution modifier. You gain resistance to all damage while you have these temporary hitpoints."
+									"As a bonus action, you can spend 2 flow points to put up your guard. You gain temporary hit points equal to your Beat 'Em Up die + your Constitution modifier. You gain resistance to all damage while you have these temporary hit points."
 								]
 							},
 							{
@@ -398,7 +398,7 @@
 								"type": "entries",
 								"name": "Seismic Slam",
 								"entries": [
-									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and they have disadvantage to checks made to escape your grapple until the end of their next turn."
+									"Immediately after you successfully grapple a creature on your turn, you can spend 1 flow point to slam them to the ground and knock them {@condition prone}. You can expend 1 additional flow point: that creature takes damage equal to your Beat 'Em Up die + your Strength modifier, and they have disadvantage on checks made to escape your grapple until the end of their next turn."
 								]
 							},
 							{

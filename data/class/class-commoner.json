@@ -222,7 +222,7 @@
 								"name": "Crippling Fit",
 								"entries": [
 									"<i>{@bold Prerequisites:} a one-handed or two-handed melee trusty weapon.</i>",
-									"With this Fit, you go for the hamstrings. When you hit a creature with a melee weapon attack, the target must succed on a Dexterity saving throw with a DC equal to 8 + (2 × your proficiency bonus). On a failed save, that creature's movement speed is reduced by half until the end of its next turn. Regardless of whether creature passes or fails the save, you do not provoke opportunity attacks from them until the start of your next turn."
+									"With this Fit, you go for the hamstrings. When you hit a creature with a melee weapon attack, the target must succed on a Dexterity saving throw with a DC equal to 10 + (2 × your proficiency bonus). On a failed save, that creature's movement speed is reduced by half until the end of its next turn. Regardless of whether creature passes or fails the save, you do not provoke opportunity attacks from them until the start of your next turn."
 								]
 							},
 							{
@@ -241,6 +241,13 @@
 									"With this Fit, projectiles from your sling fire unconventionally, taking most creatures by complete surprise. On your first attack against a creature in combat, you deal an additional {@dice 1d4} damage of your sling's type. This effect can be triggered on different creatures, but only on your first attack. Regardless of whether you miss."
 								]
 							}
+			]
+		},
+		{
+			"name": "Double Trouble",
+			"entries": [
+				"Also at 6th level, you can create a second trusty weapon at the conclusion of a long rest. You must still choose from the list of weapons available to you from your 1st-level feature. The weapon you choose can be different from your first trusty weapon. You can also apply a Fit to your second weapon. The Fit applied to your second trusty weapon can be different from your first.",
+				"You have also grown extremely comfortable using multiple weapons in combat—so long as that weapon is your trusty weapon. While in combat, you can swap your trusty weapon for another trusty weapon without expending your objection interaction, and can do so before making an attack, even if it is not currently your turn."
 			]
 		}
 		],

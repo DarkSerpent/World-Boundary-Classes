@@ -4446,6 +4446,62 @@
 				},
 				{
 					"type": "table",
+					"name": "Reckless Casting Tables; 1st-Level",
+					"caption": "1st-Level Spells",
+					"source": "CoA",
+					"colLabels": [
+						"d10",
+						"1st-Level Spell"
+					],
+					"colStyles": [
+						"col-3 text-center",
+						"col-9"
+					],
+					"rows": [
+						[
+							"1",
+							"{@spell burning hands}"
+						],
+						[
+							"2",
+							"{@spell chromatic orb}"
+						],
+						[
+							"3",
+							"{@spell color spray}"
+						],
+						[
+							"4",
+							"{@spell earth tremor}"
+						],
+						[
+							"5",
+							"{@spell faerie fire}"
+						],
+						[
+							"6",
+							"{@spell fog cloud}"
+						],
+						[
+							"7",
+							"{@spell ice knife}"
+						],
+						[
+							"8",
+							"{@spell magic missile}"
+						],
+						[
+							"9",
+							"{@spell thunderwave}"
+						],
+						[
+							"10",
+							"Roll twice and cast each spell, but if you roll another 10 on either die, you cast nothing, wasting your action but not the spell slot."
+						]
+					]
+				},
+				{
+					"type": "table",
 					"name": "Reckless Casting Tables; 2nd-Level",
 					"caption": "2nd-Level Spells",
 					"source": "CoA",
@@ -4705,7 +4761,8 @@
 			"level": 14,
 			"header": 2,
 			"entries": [
-				"Starting at 14th level, when you cast a spell with a spell slot and the spell deals acid, cold, fire, lightning, or thunder damage, you can spend 1 sorcery point to substitute that damage type with one other type from that list (you can change only one damage type per casting of a spell). You replace one energy type for another by channeling elemental energy from the inner planes as you cast it."
+				"Starting at 14th level, when you cast a spell with a spell slot that deals acid, cold, fire, lightning, or thunder damage, you can spend sorcery points to roll additional damage die. You can spend up to 3 sorcery points, and for each sorcery point you expend, you roll one additional damage die of the spell's primary damage.",
+				"You can use this feature multiple times each turn, targeting a different spell that you casted each time."
 			]
 		},
 		{

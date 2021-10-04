@@ -783,7 +783,7 @@
 										"type": "entries",
 										"name": "Quick Recovery",
 										"entries": [
-											"Starting at 1st level, you know how to bring drunkards back to their feet after they fall down. When an allied creature drops to 0 hit points and begins to make death saving throws, you can use an action to return them to 1 hit point. Once you use this feature, you cannot use it again until you finish a short or long rest."
+											"Starting at 1st level, you know how to bring drunkards back to their feet after they fall down. When an allied creature drops to 0 hit points and begins to make death saving throws, you can use an action to return them to 1 hit point. You can use this feature a number of times equal to your proficiency bonus, and regain all expended uses on a short or long rest."
 										]
 									}
 								]
@@ -796,7 +796,7 @@
 										"entries": [
 											"You're good with people; you can befriend strangers, and you've learned how to de-escalate tense situations. Starting at 5th level, you can add your Wisdom modifier to {@skill Persuasion} checks.",
 											"In addition, at the end of a long rest, you can use your cook's utensils to prepare care packages for your allies. Care packages contain items such as tasty rations, sweets or thoughtful handouts intended to boost morale and fill stomachs. You can only create a maximum of five care packages at a time, and can only possess up to a maximum of five at once.",
-											"Care packages take five minutes to consume and enjoy. Upon completion, they grant an amount of temporary hit points equal to {@dice 1d6} + your Folk Hero level and provide nourishment for an entire day.",
+											"Care packages take five minutes to consume and enjoy. Upon completion, they grant an amount of temporary hit points equal to {@dice 2d6} + your proficiency bonus + your Folk Hero level and provide nourishment for an entire day.",
 											"Alternatively, you can gift a care package to a creature not in your party. If accepted, you gain advantage on Charisma checks with that creature for the next hour."
 										]
 									}
@@ -807,7 +807,7 @@
 										"name": "Two-Fold Rest",
 										"entries": [
 											"While the party is sleeping, that is when the innkeep's work truly begins. Starting at 9th level, while your allies are taking a short rest, you can choose to forgo taking a rest yourself and instead tend to their needs. This includes cooking, cleaning and otherwise making the campsite more hospitable. Doing so increases the effectiveness of a short rest for your allies.",
-											"Designate a campsite within a 60-foot radius. You become responsible for the upkeep of that campsite, and any friendly creature who sleeps within that radius regain double the amount of hit points rolling hit die.",
+											"Designate a campsite within a 60-foot radius. You become responsible for the upkeep of that campsite, and any friendly creature who sleeps within that radius regains double the amount of hit points rolling hit die, is cured of any diseases afflicting them, and can unattune to cursed items as if the spell {@spell remove curse} was cast upon them.",
 											"In addition to hit die, allies resting within your campsite can choose to recover expended spell slots. The spell slots recovered have a total combined level that is equal to or less than a third of your Folk Hero level (rounded up, no higher than 6). An ally can choose to forgo recovering spell slots and instead choose to remove one point of {@condition exhaustion} instead.",
 											"At the completion of the short rest, you do not gain any benefits from your Two-Fold Rest, nor do you gain any benefits from taking a short rest. Once you use this feature, you cannot use it again until you finish a long rest."
 										]
@@ -818,7 +818,9 @@
 										"type": "entries",
 										"name": "Wondrous Fare",
 										"entries": [
-											"Starting at 14th level, your cooking is downright magical. At the conclusion of a long rest, you can use your cooking utensils to brew {@item potions of greater healing|PHB} equal to your Wisdom modifier (minimum of 1). Unlike other potions, yours require the freshest ingredients to function, and lose their effectiveness after 24 hours."
+											"Starting at 14th level, your cooking is downright magical. At the conclusion of a long rest, you can use your cooking utensils to brew a number of Uncommon potions from the DMG equal to your proficiency bonus.",
+											"In addition, at the conclusion of a short rest, you can produce {@dice 1d4} additional Uncommon potions from the DMG if you are below your max. The maximum number of potions you can have via this feature at once is equal to your proficiency bonus.",
+											"Unlike other potions, yours require the freshest ingredients to function, and lose their effectiveness after 24 hours. For any potions with an active duration, those durations remain the same."
 										]
 									}
 						]
